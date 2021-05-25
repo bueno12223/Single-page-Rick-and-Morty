@@ -2,6 +2,9 @@ import Header from '../template/header';
 import Home from '../pages/home';
 import Character from '../pages/characters';
 import Error404 from '../pages/error404';
+import getHash from '../utils/getHash';
+import resolveRoutes from '../utils/resolveRoutes';
+
 
 const routes = {
   '/': Home,
